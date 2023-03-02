@@ -1,0 +1,36 @@
+body{
+    background-color: #202020;
+}
+
+.container{
+    
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: larger;
+    
+}
+
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+
+
+.clock-items{
+    width: 30%;
+    background-color: whitesmoke;
+    color: #202020;
+    border-radius: 10px;
+    margin: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
